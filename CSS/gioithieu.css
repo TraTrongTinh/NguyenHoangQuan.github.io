@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    outline: none !important;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #8797ae;
+    font-size: 15px;
+}
+
+.gioithieu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-image: url(../Anh/nendangnhap.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    margin: 3px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 1200px;
+}
+
+.box__chua {
+    text-align: left;
+}
+
+.danhgia>.danhgia1 {
+    float: left;
+}
+
+.danhgia>.danhgia2 {
+    float: right;
+}
+
+.video-r {
+    float: right;
+}
+
+.fb-comments {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+}

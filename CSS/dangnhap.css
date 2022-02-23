@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-image: url(../Anh/nendangnhap.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box__chua img {
+    width: 100%;
+}
+
+.box__chua {
+    background-color: #ffffff4a;
+    /* background: linear-gradient(0deg, #dd2, #234); */
+    width: 500px;
+    height: 600px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
+.box__chua>form input {
+    background-clip: border-box;
+    background-color: white;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 90px;
+    color: blue;
+    font-size: 18px;
+}
+
+.box__chua .taikhoan {
+    background: url(../Anh/icondangnhap.png) no-repeat 30px center;
+    background-size: 5%;
+    background-color: white;
+    border: none;
+}
+
+.box__chua .matkhau {
+    background: url(../Anh/iconpass.png) no-repeat 30px center;
+    background-size: 5%;
+    background-color: white;
+}
+
+button {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 15px 70px;
+    background-color: rgb(220, 220, 44);
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+button:hover {
+    width: 100%;
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 15px 70px;
+    background-color: rgb(255, 255, 0);
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+.box__chua--down {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.chua__down--left {
+    padding-left: 2px;
+    float: left;
+    font-size: 20px;
+}
+
+.chua__down--right {
+    float: right;
+    padding-right: 2px;
+    font-size: 20px;
+}
